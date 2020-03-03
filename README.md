@@ -15,6 +15,12 @@
 - If you've cloned this week's repository in your HPC account, it includes a file called "ExampleJupyterNotebook.ipynb" that you can open once you've started a Jupyter Notebook Server.
 - [OPTIONAL] If you end up wanting to work with Jupyter notebooks on your own computer, you can install it locally. Probably the most popular way to run Jupyter notebooks locally is by installing Anaconda (https://www.anaconda.com).
 
+```
+Practice Exercise
+
+Follow the procedure above to start a new Jupyter notebook server. Create a new notebook and add both some text and some Python code.
+```
+
 ## String Formatting
   
 - Python has a special way to format strings so that the values of variables can be included
@@ -38,6 +44,12 @@
     - `userStr = input("Input some string: ")`
 - You can use the string methods outlined above to standardize user input - like stripping out excess whitespace, changing character case, etc.
 
+```
+Practice Exercise
+
+Write a Python script that asks a user to input three different kinds of variables, using three separate input() commands. Then use string formatting to print out the values of all three variables in one string.
+```
+
 ## Getting help from Python
   
 - If you need help remembering what methods are available for a given object, use `dir(<OBJECT>)`
@@ -49,7 +61,7 @@
 
 ## `if` statements
 
-- These are similar in form to bash, but simpler
+- These are similar in form to bash, but simpler.
 - The general form is:
 
 ```
@@ -121,6 +133,12 @@ elif nuc == "T":
     print("Nucleotide is a T.")
 else:
     print("This is not a valid nucleotide!")
+```
+
+```
+Practice Exercise
+
+Write a script that asks a user to enter a string. Use an if...elif...else statement to compare the string to a series of keywords that you've defined. Print out a statement indicating whether the user's entry matches any of the keywords or not.
 ```
 
 ## Lists
@@ -200,6 +218,26 @@ for num in range(10):
     - `myTuple`
     - `myTuple[1]`
     - `myTuple[1] = 5`
+
+## Practice Exercise - Generating the Reverse Complement of a DNA sequence
+
+```
+When looking for specific patterns in genome sequences, we often want to make
+sure to search for the pattern on both strands. Because the 5'-3' orientation
+runs in opposite directions on different strands, and nucleotides pair with
+their complement (A-T and G-C), the 5'-3' sequence AGGC on one strand will
+look like GCCT if sequenced on the other strand. Since we're generally not
+sure which strand we've actually sequenced, we want to look for both of these
+patterns. But this requires being able to translate any sequence of interest
+into its reverse complement. There are two steps in this process, although
+the order of these steps doesn't matter:
+
+  - Reverse the sequence
+  - Generate the complement of the sequence
+
+Write a python script that accepts a sequence from the user and prints out
+the reverse complement to the screen.
+```
 
 ## References
 
