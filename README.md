@@ -175,6 +175,9 @@ matches any of the keywords or not. Do this in a Jupyter notebook.
     - How does `newList` differ from what you got when you used `append()`?
 - You can view or extract parts of a list by using indices and "slicing" the list (just remember that python starts counting at 0!)
     - `newList[4:7]` - What values are returned? How do these relate to the indices you provided?
+- You can also extract every n-th element of a list using notation like this:
+    - `newList[::2]` - What values are returned now?
+    - `newList[2:8:2]` - How about now?
 - You can also alter individual elements of lists by using indices
     - `newList`
     - `newList[2] = 100`
