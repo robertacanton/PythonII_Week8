@@ -18,7 +18,8 @@
 ```
 Practice Exercise
 
-Follow the procedure above to start a new Jupyter notebook server. Create a new notebook and add both some text and some Python code.
+Follow the procedure above to start a new Jupyter notebook server. Create a new notebook and add both 
+some text and some Python code.
 ```
 
 ## String Formatting
@@ -47,7 +48,8 @@ Follow the procedure above to start a new Jupyter notebook server. Create a new 
 ```
 Practice Exercise
 
-Write a Python script that asks a user to input three different kinds of variables, using three separate input() commands. Then use string formatting to print out the values of all three variables in one string.
+Write a Python script that asks a user to input three different kinds of variables, using three separate
+input() commands. Then use string formatting to print out the values of all three variables in one string.
 ```
 
 ## Getting help from Python
@@ -138,7 +140,9 @@ else:
 ```
 Practice Exercise
 
-Write a script that asks a user to enter a string. Use an if...elif...else statement to compare the string to a series of keywords that you've defined. Print out a statement indicating whether the user's entry matches any of the keywords or not.
+Write a script that asks a user to enter a string. Use an if...elif...else statement to compare the string
+to a series of keywords that you've defined. Print out a statement indicating whether the user's entry
+matches any of the keywords or not.
 ```
 
 ## Lists
