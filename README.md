@@ -6,12 +6,12 @@
 - These notebooks can be run on SuperMike through OnDemand.
 - To open a Jupyter notebook, go to the "Interactive Apps" menu at the top and select "Jupyter Notebook".
 - A form will be displayed that asks for some information. For now, please use these options:
-    - Account: "hpc_icbio01"
+    - Account: Leave blank for now
     - Queue: "single"
     - Number of hours: 1
     - Number of nodes: 1
     - Bc Num Cores: 1
-- Note that these options will "charge" the account that I've set up for this class (hpc_icbio01). For the purposes of this class, there will never be a need to change the numer of nodes to more than 1. You may later need to increase the number of hours, but please only ask for as many hours as you will be actively working at a time. If you open a notebook during the time you've requested, you won't need to re-enter any of this information. If the time has expired, you will need to make another request for time.
+- Note that these options will "charge" an account for the time used to run the notebook. For the purposes of this class, there will never be a need to change the numer of nodes to more than 1. You may later need to increase the number of hours, but please only ask for as many hours as you will be actively working at a time. If you open a notebook during the time you've requested, you won't need to re-enter any of this information. If the time has expired, you will need to make another request for time.
 - If you've cloned this week's repository in your HPC account, it includes a file called "ExampleJupyterNotebook.ipynb" that you can open once you've started a Jupyter Notebook Server.
 - [OPTIONAL] If you end up wanting to work with Jupyter notebooks on your own computer, you can install it locally. Probably the most popular way to run Jupyter notebooks locally is by installing Anaconda (https://www.anaconda.com).
 
@@ -48,8 +48,9 @@ some text and some Python code.
 ```
 Practice Exercise
 
-Write a Python script that asks a user to input three different kinds of variables, using three separate
-input() commands. Then use string formatting to print out the values of all three variables in one string.
+Write a Python script that asks a user to input three different kinds of variables, using three 
+separate input() commands. Then use string formatting to print out the values of all three 
+variables in one string. Please do this in a Jupyter notebook.
 ```
 
 ## Getting help from Python
@@ -142,7 +143,7 @@ Practice Exercise
 
 Write a script that asks a user to enter a string. Use an if...elif...else statement to compare the string
 to a series of keywords that you've defined. Print out a statement indicating whether the user's entry
-matches any of the keywords or not.
+matches any of the keywords or not. Do this in a Jupyter notebook.
 ```
 
 ## Lists
@@ -223,9 +224,10 @@ for num in range(10):
     - `myTuple[1]`
     - `myTuple[1] = 5`
 
-## Practice Exercise - Generating the Reverse Complement of a DNA sequence
 
 ```
+Practice Exercise - Generating the Reverse Complement of a DNA sequence
+
 When looking for specific patterns in genome sequences, we often want to make
 sure to search for the pattern on both strands. Because the 5'-3' orientation
 runs in opposite directions on different strands, and nucleotides pair with
