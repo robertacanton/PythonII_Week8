@@ -248,6 +248,16 @@ Write a python script that accepts a sequence from the user and prints out
 the reverse complement to the screen.
 ```
 
+
+
+## Assignment - Week 8
+```
+See the Jupyter notebook called "Dispersal_assignment". Fill in the
+missing code and answer the questions at the end. Complete this by
+Friday, March 13th. Add your completed Jupyter notebook to the assignments
+folder in your fork, and submit a pull request.
+```
+
 ## References
 
 - [Python Style Guide](https://www.python.org/dev/peps/pep-0008/)
